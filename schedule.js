@@ -64,7 +64,7 @@ jobs:
                   TRIGGER_KEYWORDS: ${{ secrets.TRIGGER_KEYWORDS }}
                   #CRONTAB
                   CRONTAB: ${{ '0 0 0,16 * * *' }} #定时在每天0和下午4点整执行一次
-                  SYNCURL: https://github.com/lxk0301/jd_scripts/raw/master/jd_joy_reward.js #此处填写你要执行的js
+                  SYNCURL: https://github.com/LXK9301/jd_scripts/raw/master/jd_joy_reward.js #此处填写你要执行的js
 
 
  */
@@ -80,7 +80,7 @@ let CRONTAB = process.env.CRONTAB; //请填写五位或六位的调度命令,这
 
 let ACTIONS_TRIGGER_TOKEN = process.env.ACTIONS_TRIGGER_TOKEN; //Personal access tokens，申请教程:https://www.jianshu.com/p/bb82b3ad1d11 记得勾选repo权限就行
 let TRIGGER_KEYWORDS = process.env.TRIGGER_KEYWORDS || "schedule"; //.github/workflows/路径里面yml文件里面repository_dispatch项目的types值，例如jd_fruit.yml里面的值为fruit
-let GITHUBUSER = process.env.GITHUBUSER; //github用户名，例:lxk0301
+let GITHUBUSER = process.env.GITHUBUSER; //github用户名，例:LXK9301
 let REPO = process.env.REPO; //需要触发的 Github Action 所在的仓库名称 例:scripts
 
 let LONG_TIME_TRIGGER = process.env.LONG_TIME_TRIGGER == "true"; //用于判断脚本是否需要长时间执行,如果不需要记得在yaml中配置timeout-minutes
