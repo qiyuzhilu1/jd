@@ -210,7 +210,7 @@
     }, {
       "name": "初始化设置",
       "script": "https://gist.githubusercontent.com/NobyDa/91cbe57dd50b3588a975af8922507a72/raw/JD_initial.js"
-    }]
+    }],
     "author": "@NobyDa",
     "repo": "https://github.com/NobyDa/Script/blob/master/Surge/JS/Bili_Auto_Regions.js",
     "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/bilibili.png", "https://raw.githubusercontent.com/Orz-3/task/master/bilibili.png"]
