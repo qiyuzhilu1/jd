@@ -211,6 +211,26 @@
       "name": "初始化设置",
       "script": "https://gist.githubusercontent.com/NobyDa/91cbe57dd50b3588a975af8922507a72/raw/JD_initial.js"
     }],
+     {
+      "id": "jd_gyec",
+      "name": "工业品爱消除",
+      "keys": ["JDGYEC"],
+      "author": "@shylocks",
+      "repo": "https://github.com/shylocks/Loon/blob/main/jd_gyec.js",
+      "settings": [
+        {
+          "id": "JDGYEC",
+          "name": "京东粉丝专享兑换京豆开关",
+          "val": "",
+          "type": "string",
+          "placeholder": "",
+          "desc": "填写具体兑换商品的名称，默认为1888京豆"
+        }],
+      "icons": [
+        "https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylock/jd_gyxxl.png",
+        "https://raw.githubusercontent.com/yogayyy/Scripts/main/Mini/shylocks/jd_gyxxl_mini.png"
+      ],
+      "script": "https://raw.githubusercontent.com/shylocks/Loon/main/jd_gyec.js"
     "author": "@梦之步网络科技",
     "repo": "https://github.com/NobyDa/Script/tree/master/JD-DailyBonus",
     "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jd.png", "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"]
