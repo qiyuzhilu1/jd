@@ -1,3 +1,4 @@
+# -*- coding: utf8 -*-
 import requests, time
 import random
 cookie='这里替换为自己的ck'
@@ -22,7 +23,7 @@ def task():
                 print(f'{info["mission_name"]}:此任务已完成')
             else:
                 print(f'{info["mission_name"]}:{complite(info["mission_id"])}')
-                delay=random.randint(5,15)            
+                delay=random.randint(5,12)            
                 time.sleep(delay)
 
 task()
