@@ -23,7 +23,7 @@ def task():
                 print(f'{info["mission_name"]}:此任务已完成')
             else:
                 print(f'{info["mission_name"]}:{complite(info["mission_id"])}')
-                delay=random.randint(5,12)            
+                delay=random.randint(5,15)            
                 time.sleep(delay)
 
 task()
