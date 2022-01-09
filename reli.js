@@ -314,11 +314,11 @@ function getEid(arr) {
 
 function getUA(){
   $.UA = `jdapp;iPhone;10.2.0;13.1.2;${randomString(40)};M/5.0;network/wifi;ADID/;model/iPhone8,1;addressid/2308460611;appBuild/167853;jdSupportDarkMode/0;Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1;`
-  rebateCode = 'StiztBs'
+  rebateCode = 'SdMHDF5'
   if($.index != 1){
-    let arr = [rebateCodes,'StiztBs']
+    let arr = [rebateCodes,'SdMHDF5']
     rebateCode = arr[Math.floor(Math.random() * arr.length)] || rebateCode
-    if(!rebateCode) rebateCode = 'StiztBs'
+    if(!rebateCode) rebateCode = 'SdMHDF5'
   }
   console.log(rebateCode)
 }
