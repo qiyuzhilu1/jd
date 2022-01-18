@@ -36,7 +36,7 @@ if ($.isNode()) {
 
 }
 
-$.activityKey = '3c321b4cf8ff3ded980362ce0d3cabff'; //更换活动ID
+$.activityKey = '250d1eb7f6ed5f2970056a5abf1e708f'; //更换活动ID
 
 const JD_API_HOST = 'https://api.m.jd.com/api';
 
